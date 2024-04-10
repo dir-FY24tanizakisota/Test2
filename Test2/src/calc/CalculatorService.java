@@ -14,7 +14,7 @@ public class CalculatorService {
     
     public String subtractAndReport(int a, int b) {
         int result = calculator.subtract(a, b);
-        return "result:" + result;
+        return "Result: " + result;
     }
 
 }
